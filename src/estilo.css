@@ -136,10 +136,68 @@ color: #fff;
     text-align: center;
 }
 
+/* Estilização da section história */
+.historia{
+    padding: 30px;
+}
+.historia h2{
+    text-align: center;
+}
+.historia p{
+    text-align: center;
+}
+/* Estilização da section proposta-pedagogica */
+.proposta-pedagogica{
+    background-color: #e1e1e1;
+    padding: 30px;
+}
+.proposta-pedagogica h2{
+    text-align: center;
+}
+.proposta-pedagogica p{
+    text-align: center;
+}
+/* Estilização da section nossa-estrutura */
+.nossa-estrutura{
+    padding: 30px;
+}
+.nossa-estrutura h2{
+    text-align: center;
+}
+.nossa-estrutura p{
+    text-align: center;
+}
+.nossa-estrutura .fotos{
+    display: flex;
+    justify-content: space-around;
+}
+.nossa-estrutura .fotos img{
+    background-color: #e1e1e1;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+/* Estilização da ultima section */
+.outras-secoes{
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.outras-secoes img{
+    width: 120px;
+    height: 80px;
+}
+.outras-secoes .secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* Estilos do rodapé */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #01adef;
+    color: #000;
     text-align: center;
     padding: 10px;
 }
