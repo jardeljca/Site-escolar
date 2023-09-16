@@ -52,6 +52,7 @@ header img {
     align-items: center;
     background-color: #01adef;
     height: 100px;
+    width: 100vw;
 }
 
 .logo img{
@@ -79,14 +80,44 @@ color: #fff;
 .banner{
     width: 100vw;
     height: 400px;
-    background-color: red;
 }
 
 .banner img{
     width: 100%;
     height: 100%;
 }
-
+/* Estilização da section séries */
+.series h2{
+    text-align: center;
+}
+.desc-series{
+    display: flex;
+    flex-direction: column;
+}
+.serie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serie img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-top: 0px;
+}
+.serie div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Section videos */
+.videos{
+    background-color: #e1e1e1;
+}
+.videos h2{
+    text-align: center;
+}
 
 /* Estilos do rodapé */
 footer {
