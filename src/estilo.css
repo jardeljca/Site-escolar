@@ -115,6 +115,23 @@ color: #fff;
 .videos{
     background-color: #e1e1e1;
 }
+.area-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#area-video{
+    display: flex;
+    width: 800px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 .videos h2{
     text-align: center;
 }
