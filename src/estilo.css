@@ -9,11 +9,10 @@ body {
 header {
     background-color: #fff;
     color: #000;
-    height: 50px;
+    height: 70px;
     width: 100vw;
-    height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,6 +29,9 @@ header img {
     margin: 30px;
 }
 
+.social-icons{
+    width: 150px;
+}
 .social-icons img{
     width: 30px;
     height: 30px;
@@ -200,4 +202,64 @@ footer {
     color: #000;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsividade do site */
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+/* Estilização do header */
+header {
+    background-color: #fff;
+    color: #000;
+    height: 50px;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact p {
+    margin: 20px;
+}
+
+.social-icons img{
+    width: 12px;
+    height: 12px;
+}
+
+.social-icons img:hover{
+    width: 32px;
+    height: 32px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+}
+
+@media screen and (min-width: 371px) and (max-width: 600px){
+
+}
+
+@media screen and (min-width: 261px) and (max-width: 370px){
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 260px){
+    body{
+        display: none;
+    }
 }
