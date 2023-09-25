@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -465,13 +466,17 @@ header #icone-casa{
 }
 
 .contact{
+    position: absolute;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     height: 30px;
 }
 
-.contact p {
+.contact p{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     height: 30px;
     margin: 0px 5px 0px 5px;
 }
@@ -480,7 +485,7 @@ header #icone-casa{
     position: absolute;
     z-index: 99;
     background-color: rgba(1, 173, 239, 0.9);
-    width: 20vw;
+    width: 50px;
     height: calc(100vh - 500px);
     top: 30px;
     right: 0;
@@ -505,7 +510,7 @@ header #icone-casa{
 }
 .icone-sociais{
     display: block;
-
+    width: 80px;
 }
 /* Estilização da section logo */
 .logo{
@@ -519,28 +524,35 @@ header #icone-casa{
 
 .logo img{
     margin: 5px;
-    width: 100px;
+    width: 60px;
     height: 80%;
 }
 
 .logo nav{
+    display: none;
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(1, 173, 239, 0.9);
+    top: 90px;
+    right: 0;
     font-weight: bold;
 }
 .logo nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
 }
 .logo nav li {
-    margin: 5px;
+    margin: 0px;
 }
 
 .logo nav a {
     color: #000;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .logo nav a:hover{
@@ -603,10 +615,12 @@ header #icone-casa{
     width: 100%;
     background-color: #e1e1e1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .outras-secoes img{
+    margin-top: 10px;
     width: 100px;
     height: 60px;
 }
@@ -622,7 +636,7 @@ header #icone-casa{
 }
 .secao h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 .secao ul{
     list-style: none;
@@ -632,7 +646,7 @@ header #icone-casa{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 /* Estilos do rodapé */
 footer {
@@ -643,7 +657,7 @@ footer {
     color: #000;
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 }
 
