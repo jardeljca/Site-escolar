@@ -1,3 +1,4 @@
+window.alert('Esse site é apenas um protótipo para um trabalho da faculdade, por tanto o mesmo não está concluido!');
 function verificarLarguraEcran() {
     const BotaoSociais = document.getElementById("BotaoSociais");
     const MenuSociais = document.getElementById("MenuSociais");
